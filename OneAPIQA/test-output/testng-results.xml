@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="13659" started-at="2021-03-22T03:34:26 IST" finished-at="2021-03-22T03:34:40 IST">
+    <groups>
+    </groups>
+    <test name="One API test" duration-ms="13659" started-at="2021-03-22T03:34:26 IST" finished-at="2021-03-22T03:34:40 IST">
+      <class name="com.one.api.tests.Tests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.one.api.tests.Tests@1ad282e0]" name="setUp" is-config="true" duration-ms="11" started-at="2021-03-22T03:34:26 IST" finished-at="2021-03-22T03:34:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getBooks()[pri:0, instance:com.one.api.tests.Tests@1ad282e0]" name="getBooks" duration-ms="2309" started-at="2021-03-22T03:34:26 IST" finished-at="2021-03-22T03:34:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooks -->
+        <test-method status="PASS" signature="getMovie()[pri:0, instance:com.one.api.tests.Tests@1ad282e0]" name="getMovie" duration-ms="902" started-at="2021-03-22T03:34:28 IST" description="Get Movie with valid token" finished-at="2021-03-22T03:34:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMovie -->
+        <test-method status="PASS" signature="getMovieInvalidReq()[pri:0, instance:com.one.api.tests.Tests@1ad282e0]" name="getMovieInvalidReq" duration-ms="899" started-at="2021-03-22T03:34:29 IST" description="Get Movie without Basic token" finished-at="2021-03-22T03:34:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMovieInvalidReq -->
+        <test-method status="PASS" signature="getQuotes()[pri:0, instance:com.one.api.tests.Tests@1ad282e0]" name="getQuotes" duration-ms="9510" started-at="2021-03-22T03:34:30 IST" description="Get Quotes of a Movie" finished-at="2021-03-22T03:34:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQuotes -->
+      </class> <!-- com.one.api.tests.Tests -->
+    </test> <!-- One API test -->
+  </suite> <!-- Test Suite -->
+</testng-results>

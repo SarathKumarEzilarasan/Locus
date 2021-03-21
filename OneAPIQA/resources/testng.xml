@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite" verbose="2">
+
+    <test name="One API test">
+        <classes>
+            <class name="com.one.api.tests.Tests"/>
+        </classes>
+    </test>
+
+</suite>

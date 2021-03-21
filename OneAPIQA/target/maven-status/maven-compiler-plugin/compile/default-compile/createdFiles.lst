@@ -1,0 +1,16 @@
+utils/DiffUtil.class
+models/Movie.class
+utils/RequestBuilder.class
+com/one/api/tests/baseClass.class
+models/Book.class
+utils/RestCalls.class
+utils/DiffUtil$1.class
+utils/Result.class
+utils/ReadQaProps.class
+com/one/api/tests/Tests.class
+utils/APIConstants.class
+models/Quote.class
+models/GetBooks.class
+models/ErrorResponse.class
+models/GetMovie.class
+models/GetQuotes.class
